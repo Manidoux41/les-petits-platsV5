@@ -25,6 +25,5 @@ export function HeaderTemplate() {
     header.appendChild(formSearch);
     
     app.appendChild(header);
-    
-    
+
 }
