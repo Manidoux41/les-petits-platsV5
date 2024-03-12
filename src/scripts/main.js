@@ -1,5 +1,9 @@
-const app = document.querySelector('#app');
-console.log(app);
-const title = document.createElement('h1');
-title.textContent = 'Les Petits plats';
-app.appendChild(title);
+import { HeaderTemplate } from "./templates/HeaderTemplate.js";
+
+function init(){
+    setTimeout(() => {
+        HeaderTemplate();
+    }, 1000);
+}
+
+init();
